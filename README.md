@@ -1,16 +1,39 @@
-# mindflow
+# 🧠 MindFlow
 
-A new Flutter project.
+Aplicativo de **Controle de Hábitos e Desenvolvimento Pessoal**, feito em **Flutter + Firebase**, com foco em produtividade, bem-estar e organização de rotina.
 
-## Getting Started
+## 📱 Screenshots
+| Onboarding | Dashboard | Progresso | Perfil |
+|:--:|:--:|:--:|:--:|
+| ![](assets/images/dashboard.png) | ![](assets/images/dashboard.png) | ![](assets/images/progresso.png) | ![](assets/images/perfil.png) |
 
-This project is a starting point for a Flutter application.
+## 🚀 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Autenticação com **Email/Senha** e **Google**
+- ✅ Tela de Onboarding
+- ✅ Cadastro de hábitos com escolha de horário
+- ✅ Notificações diárias dos hábitos
+- ✅ Tela de progresso e calendário
+- ✅ Perfil do usuário com foto, nome e bio
+- ✅ Dados salvos no **Firebase Firestore**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias Utilizadas
+
+- **Flutter + Dart**
+- **Riverpod** (gerenciamento de estado)
+- **Firebase Auth** (autenticação)
+- **Cloud Firestore** (banco de dados)
+- **Firebase Storage** (upload de fotos)
+- **Local Notifications** (notificações diárias)
+- **SVG Support** (`flutter_svg`)
+
+---
+
+## 🔥 Como rodar este projeto
+
+1. Clone o repositório:
+
+```bash
+git clone
