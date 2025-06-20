@@ -1,0 +1,55 @@
+<svg viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente para o ícone -->
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF7043;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para o texto -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF5722;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Ícone do cérebro/mente com fluxo -->
+  <g transform="translate(20, 25)">
+    <!-- Forma principal do cérebro -->
+    <path d="M35 15 C45 5, 55 5, 60 15 C65 10, 70 15, 70 25 C75 20, 80 25, 75 35 C80 40, 75 50, 65 50 C60 55, 40 55, 35 50 C25 50, 20 40, 25 35 C20 25, 25 20, 30 25 C25 15, 30 10, 35 15 Z" 
+          fill="url(#orangeGradient)" 
+          stroke="none"/>
+    
+
+    
+    <!-- Pontos de conexão -->
+    <circle cx="40" cy="30" r="2" fill="#000000" opacity="0.4"/>
+    <circle cx="55" cy="35" r="2" fill="#000000" opacity="0.4"/>
+    <circle cx="45" cy="42" r="2" fill="#000000" opacity="0.4"/>
+    
+    <!-- Elementos de fluxo externos -->
+    <g opacity="0.7">
+      <path d="M10 30 Q15 25, 20 30" stroke="#FF5722" stroke-width="2" fill="none"/>
+      <path d="M80 35 Q85 30, 90 35" stroke="#FF5722" stroke-width="2" fill="none"/>
+      <circle cx="12" cy="32" r="1.5" fill="#FF5722"/>
+      <circle cx="88" cy="37" r="1.5" fill="#FF5722"/>
+    </g>
+  </g>
+  
+  <!-- Texto MindFlow -->
+  <g transform="translate(140, 45)">
+    <!-- Mind -->
+    <text x="0" y="0" 
+          font-family="Poppins, Arial, sans-serif" 
+          font-size="28" 
+          font-weight="bold" 
+          fill="url(#textGradient)">Mind</text>
+    
+    <!-- Flow -->
+    <text x="0" y="35" 
+          font-family="Poppins, Arial, sans-serif" 
+          font-size="28" 
+          font-weight="300" 
+          fill="url(#textGradient)">Flow</text>
+  </g>
+</svg>
