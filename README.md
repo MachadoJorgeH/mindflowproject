@@ -5,7 +5,7 @@ Aplicativo de **Controle de Hábitos e Desenvolvimento Pessoal**, feito em **Flu
 ## 📱 Screenshots
 | Onboarding | Dashboard | Progresso | Perfil |
 |:--:|:--:|:--:|:--:|
-| ![](assets/images/dashboard.png) | ![](assets/images/dashboard.png) | ![](assets/images/progresso.png) | ![](assets/images/perfil.png) |
+| ![](assets/images/onboarding.png) | ![](assets/images/dashboard.png) | ![](assets/images/progresso.png) | ![](assets/images/perfil.png) |
 
 ## 🚀 Funcionalidades
 
